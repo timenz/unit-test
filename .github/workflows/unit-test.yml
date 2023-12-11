@@ -36,7 +36,7 @@ jobs:
           cache: "npm"
           
       - name: Install Dependency
-        run: npm install
+        run: npm ci
 
       - name: Run unit test
         run: npm run test
